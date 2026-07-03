@@ -408,15 +408,16 @@ EOF
 
 Initialize your directory, map your infrastructure, and execute the build.
 
-1. **Initialize Terraform:** ```bash
-terraform init
+1. **Initialize Terraform:**
 ```
-
+bash
+terraform init
 ```
 
 
 2. **Execute Deployment:** Type `yes` when prompted.
-```bash
+```
+bash
 terraform apply
 
 ```
