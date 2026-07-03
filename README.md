@@ -1,6 +1,6 @@
 **🧪 Project Ludo: Active AI Deception & Threat Intelligence**
 
-Your big, fluffy AI Deception Monster (for training and demo purposed only)
+Your big, fluffy AI Deception Monster (for training and demo purposes only)
 
 <img width="200" height="200" alt="ludo" src="https://github.com/user-attachments/assets/d74780ff-24fe-4663-96c6-64c5b4028714" />
 
