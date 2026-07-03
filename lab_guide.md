@@ -1,6 +1,3 @@
-Here is the fully revised `README.md` with the Looker Studio dashboard section expanded. I made the instructions for **Option 2** much more explicit, walking the user through exactly how to request the template, copy it, and map it to their own BigQuery data source.
-
----
 
 # 🧪 Project Ludo: Active AI Deception & Threat Intelligence
 
