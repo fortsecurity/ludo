@@ -18,4 +18,18 @@ When deploying this environment, you will explore four foundational pillars of m
 
 **The Telemetry Lifecycle:** Trace the lifecycle of an attack string—moving from a raw adversarial prompt, parsed into a JSON object in memory by the LLM, crossing directly into the Cloud Logging API, and natively structuring into a BigQuery analytical database.
 
+## 🏗️ Cloud Architecture
+
+<img width="595" height="527" alt="Screenshot 2026-07-03 at 8 19 58 pm" src="https://github.com/user-attachments/assets/57c2a2e1-efd8-4b77-afe1-fb6e72c5c807" />
+
+
+> **Note:** The web server (Compute Engine) acts purely as a broker. The actual threat analysis, deception framing, and MITRE ATLAS telemetry generation occur dynamically inside the **Vertex AI** layer.
+
+---
+
+## ⚠️ Prerequisites
+
+* A Google Cloud Platform (GCP) Sandbox Project with billing enabled.
+* Full administrative access to Google Cloud Shell.
+
 For more deception shenanigans, contact team@fortsecurity.io
