@@ -1,3 +1,8 @@
+Your big, fluffy AI Deception Monster (for training and demo purposed only)
+
+<img width="1307" height="1500" alt="ludo" src="https://github.com/user-attachments/assets/d74780ff-24fe-4663-96c6-64c5b4028714" />
+
+
 🧪 Project Ludo: Active AI Deception & Threat Intelligence
 Project Ludo is a hands-on, Infrastructure-as-Code (IaC) deployment designed to teach Advanced Cloud Security and Active Defense. It deploys a memory-resident honeypot that leverages Google's Gemini 3.5 Flash LLM to actively engage, stall, and deanonymize attackers, mapping their behaviors directly to the MITRE ATLAS framework.
 
