@@ -16,21 +16,8 @@ When deploying this environment, you will explore four foundational pillars of m
 
 ## 🏗️ Cloud Architecture
 
----
-config:
-  theme: neo
----
-flowchart TD
-    A[Attacker / Browser] -- HTTP Port 5000 --> B[Compute Engine VM<br/>Flask App]
-    
-    B -- User Prompt + Stealth Context --> C[Vertex AI: Gemini 3.5 Flash<br/>Deception System Prompt]
-    C -- MITRE JSON + Ludo Response --> B
-    
-    B -- Memory-to-API Log --> D[GCP Log Router Sink]
-    D --> E[(BigQuery)]
-    E --> F[Looker SOC Dashboard]
+<img width="595" height="527" alt="Screenshot 2026-07-03 at 8 19 58 pm" src="https://github.com/user-attachments/assets/57c2a2e1-efd8-4b77-afe1-fb6e72c5c807" />
 
-```
 
 > **Note:** The web server (Compute Engine) acts purely as a broker. The actual threat analysis, deception framing, and MITRE ATLAS telemetry generation occur dynamically inside the **Vertex AI** layer.
 
