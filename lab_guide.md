@@ -16,7 +16,10 @@ When deploying this environment, you will explore four foundational pillars of m
 
 ## 🏗️ Cloud Architecture
 
-```mermaid
+---
+config:
+  theme: neo
+---
 flowchart TD
     A[Attacker / Browser] -- HTTP Port 5000 --> B[Compute Engine VM<br/>Flask App]
     
