@@ -371,9 +371,10 @@ resource "google_project_service" "apis" {
 
 # Threat Intelligence Dataset
 resource "google_bigquery_dataset" "ludo_audit_logs" {
-  dataset_id = "ludo_app_audit_logs"
-  location   = var.region
-  depends_on = [google_project_service.apis]
+  dataset_id                  = "ludo_app_audit_logs"
+  location                    = var.region
+  delete_contents_on_destroy  = true
+  depends_on                  = [google_project_service.apis]
 }
 
 # Dedicated Least-Privilege IAM Context
