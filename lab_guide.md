@@ -61,11 +61,8 @@ export TF_VAR_project_id=$(gcloud config get-value project)
 mkdir project-ludo && cd project-ludo
 ```
 
+3. Create the Bootstrapping Script (`startup.sh`):** This script is passed via Terraform to the Compute instance. It installs dependencies and launches the weaponized deception engine invisibly on boot.
 
-```
-
-
-3. **Create the Bootstrapping Script (`startup.sh`):** This script is passed via Terraform to the Compute instance. It installs dependencies and launches the weaponized deception engine invisibly on boot.**
 
 ```bash
 cat << 'OUTER_EOF' > startup.sh
