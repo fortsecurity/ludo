@@ -37,7 +37,7 @@ When deploying this environment, you will explore five foundational pillars of m
 
 Define the application logic and infrastructure configurations as code files within Google Cloud Shell.
 
-1. **Install / Update Terraform:** Ensure you are running the latest HashiCorp release.
+**1.** **Install / Update Terraform:** Ensure you are running the latest HashiCorp release.
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
@@ -54,14 +54,14 @@ sudo apt-get update && sudo apt-get install -y terraform
 ```
 
 
-2. **Set your working project:**
+**2.** **Set your working project:**
 
 ```bash
 export TF_VAR_project_id=$(gcloud config get-value project)
 mkdir project-ludo && cd project-ludo
 ```
 
-3. Create the Bootstrapping Script (`startup.sh`):** This script is passed via Terraform to the Compute instance. It installs dependencies and launches the weaponized deception engine invisibly on boot.
+**3. Create the Bootstrapping Script (`startup.sh`):** This script is passed via Terraform to the Compute instance. It installs dependencies and launches the weaponized deception engine invisibly on boot.**
 
 
 ```bash
