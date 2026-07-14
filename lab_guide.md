@@ -54,7 +54,9 @@ sudo apt-get update && sudo apt-get install -y terraform
 ```
 
 
-2. **Set your working project:** ```bash
+2. **Set your working project:**
+
+```bash
 export TF_VAR_project_id=$(gcloud config get-value project)
 mkdir project-ludo && cd project-ludo
 ```
